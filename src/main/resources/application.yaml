@@ -1,3 +1,12 @@
 spring:
   application:
     name: inventory-base
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/inventory_db
+    username: root
+    password: your_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
